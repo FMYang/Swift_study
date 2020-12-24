@@ -16,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E47B8BE62594819900F5A098 /* Demo.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Demo.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		E4C0D2892588A434009D000D /* FMSwiftStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FMSwiftStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4C0D28C2588A434009D000D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E4C0D28E2588A434009D000D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -125,6 +126,7 @@
 				E4C0D2D32588A64D009D000D /* 内存安全.playground */,
 				E4C0D2D52588A659009D000D /* 访问控制.playground */,
 				E4C0D2D72588A666009D000D /* 高级运算符.playground */,
+				E47B8BE62594819900F5A098 /* Demo.playground */,
 			);
 			path = Playground;
 			sourceTree = "<group>";
