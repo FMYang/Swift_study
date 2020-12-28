@@ -51,7 +51,7 @@
 		E4C0D2D12588A644009D000D /* 自动引用计数.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "自动引用计数.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		E4C0D2D32588A64D009D000D /* 内存安全.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "内存安全.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		E4C0D2D52588A659009D000D /* 访问控制.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "访问控制.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		E4C0D2D72588A666009D000D /* 高级运算符.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "高级运算符.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		E4C0D2D72588A666009D000D /* 高阶函数.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "高阶函数.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,7 +125,7 @@
 				E4C0D2D12588A644009D000D /* 自动引用计数.playground */,
 				E4C0D2D32588A64D009D000D /* 内存安全.playground */,
 				E4C0D2D52588A659009D000D /* 访问控制.playground */,
-				E4C0D2D72588A666009D000D /* 高级运算符.playground */,
+				E4C0D2D72588A666009D000D /* 高阶函数.playground */,
 				E47B8BE62594819900F5A098 /* Demo.playground */,
 			);
 			path = Playground;

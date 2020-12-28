@@ -1,4 +1,6 @@
 /**
+ lazy
+ 
  @objc dynamic
  
  KVO写法
@@ -20,4 +22,14 @@
  guard let 、 if let
  
  AnyObject
+ 
+ 闭包
  */
+
+var arr = [1, 2, 3, 4]
+for a in arr {
+    print(a)
+}
+
+// $0是Swift内建的用来代表参数的简写
+arr.map { print($0) }
