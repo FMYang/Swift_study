@@ -12,6 +12,7 @@ import UIKit
  2、flatMap可对多维数组降维
  */
 
+// 闭包中$0是Swift内建的用来代表参数的简写
 var arr = [1, 2, 3, 4]
 let transformArr = arr.map { $0 * 2 }
 print(transformArr)
@@ -26,7 +27,7 @@ print(newa)
 let aa = a.flatMap { $0.map { $0 * 2 } }
 print(aa)
 
-// 过滤空和拆包
+// flatmap过滤空和拆包
 var b1: Int? = 4
 var b2: Int? = 5
 var b3: Int? = nil

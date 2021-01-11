@@ -21,7 +21,7 @@ enum APIError: String { // 如果不指定枚举类型，是不能设置原始�
 print(APIError.dataIsNil.rawValue) // 原始值
 print(APIError.dataIsNil) // 枚举值
 
-// 与 C 和 Objective-C 不同，Swift 的枚举成员在被创建时不会被赋予一个默认的整型值。相反，这些枚举成员本身就是完备的值，这些值的类型是已经明确定义好的 ItemType 类型
+// 与 C 和 Objective-C 不同，Swift 的枚举成员在被创建时不会被赋予一个默认的整型值。相反，这些枚举成员本身就是完备的值，这些值的类型是已经明确定义好的类型
 enum ItemType {
     case home
     case mine
@@ -92,3 +92,29 @@ func fetchList(api: API) {
 fetchList(api: API.list(page: 1, pageSize: 10))
 
 print(API.list(page: 1, pageSize: 10).params)
+
+
+// @unknown defalt
+
+enum DeviceType {
+    case iphone
+    case android
+}
+
+let devicetype: DeviceType = .iphone
+switch devicetype {
+case .iphone:
+    print("iphone")
+//case .android:
+//    print("android")
+@unknown default:
+    break
+}
+
+/*
+@unknown defalt 和 default的区别：
+
+@unknown defalt 需要穷举完所有枚举，否则报错
+ 
+ 如果需要穷举完所有枚举，使用@unknown default，只需要处理部分枚举用default
+*/

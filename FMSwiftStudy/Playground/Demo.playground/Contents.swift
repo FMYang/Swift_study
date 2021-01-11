@@ -3,20 +3,14 @@
  
  @objc dynamic
  
- KVO写法
- 
- $0
- 
+ KVO （运行时）
+  
  访问控制
  
  可选值
- 
- comcatmap
- 
+  
  as、try
- 
- 扩展、扩展里面实现init方法的影响
- 
+  
  where
  
  guard let 、 if let
@@ -24,6 +18,10 @@
  AnyObject
  
  闭包
+ 
+ protocol 和 weak
+ 
+ 必要构造器
  */
 
 var arr = [1, 2, 3, 4]
