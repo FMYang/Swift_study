@@ -68,6 +68,7 @@ enum API {
 }
 
 extension API {
+    // 只读计算属性的声明可以去掉 get 关键字和花括号：
     var params: [String: Int]? {
         switch self {
         case let .list(page, pageSize):
