@@ -14,9 +14,9 @@ class ViewController: UIViewController {
     }
     
     // 1
-    convenience init(style: String) {
-        self.init()
-    }
+//    convenience init(style: String) {
+//        self.init()
+//    }
     
     // 2
 //    init(style: String) {
