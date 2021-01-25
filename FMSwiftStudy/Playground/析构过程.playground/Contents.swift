@@ -13,7 +13,8 @@ class B: A {
 }
 
 func test() {
-    var b = B()
+    let b = B()
+    print("\(b)")
     return
 }
 
@@ -23,3 +24,14 @@ test()
  b deinit
  a deinit
  */
+
+class C {
+    var i = 1
+    deinit {
+        print("c deinit")
+    }
+}
+
+var c: C? = C()
+c = nil
+// c deinit
