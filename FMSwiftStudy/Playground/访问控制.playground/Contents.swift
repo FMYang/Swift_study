@@ -12,7 +12,7 @@ import UIKit
  访问级别范围排序，从高到低为open > public > internal > filePrivate > private
  
  open 和 public的区别是：
- open修饰的类可被其他模块继承，public则不能继承
+ open修饰的类可被其他模块继承，public则不能被其他模块继承
  
  Setter 的访问级别可以低于对应的 Getter 的访问级别，这样就可以控制变量、属性或下标的读写权限。
  
