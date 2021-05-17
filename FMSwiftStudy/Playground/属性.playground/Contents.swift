@@ -65,7 +65,14 @@ print("width = \(contentWidth)")
 print("params = \(params)")
 
 
-// 4.属性观察器
+/**
+ 4.属性观察器
+ 
+ 你可以在以下位置添加属性观察器：
+ 自定义的存储属性
+ 继承的存储属性
+ 继承的计算属性
+ */
 var password: String = "000" {
     willSet {
         print("密码将要修改成\(newValue)")
@@ -81,14 +88,6 @@ print("password = \(password)")
 /*
  5、属性包装器
  */
-
-
-
-
-
-
-
-
 
 
 
@@ -161,3 +160,18 @@ class Manager {
 //// 混合（多种类型）集合类型不能正确的被推断，需要显示指定为[Any]，或转换为[Any]
 //let a = [1, "2"] as [Any]
 //print(a)
+
+
+
+// mark: 类型oc，set方法里面判断是否设置的是同一个值
+var selectedIdx: Int = 0 {
+    didSet {
+        if selectedIdx != oldValue {
+            print("scroll to index \(selectedIdx)")
+        } else {
+            print("do nothing")
+        }
+    }
+}
+
+selectedIdx = 0

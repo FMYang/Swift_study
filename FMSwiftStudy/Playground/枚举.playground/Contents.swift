@@ -12,14 +12,14 @@ import UIKit
 /**
  
  */
-enum APIError: String { // 如果不指定枚举类型，是不能设置原始值的
+enum ErrorReson: String { // 如果不指定枚举类型，是不能设置原始值的
     case dataIsNil = "raw" // 不指定原始值，默认原始值与枚举值一样
     case noNetwork
     case serviceError
 }
 
-print(APIError.dataIsNil.rawValue) // 原始值
-print(APIError.dataIsNil) // 枚举值
+print(ErrorReson.dataIsNil.rawValue) // 原始值
+print(ErrorReson.dataIsNil) // 枚举值
 
 // 与 C 和 Objective-C 不同，Swift 的枚举成员在被创建时不会被赋予一个默认的整型值。相反，这些枚举成员本身就是完备的值，这些值的类型是已经明确定义好的类型
 enum ItemType {
